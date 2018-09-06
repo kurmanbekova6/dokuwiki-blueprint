@@ -73,6 +73,12 @@
             "default": "dokuwiki",
             "validation": "[a-zA-Z0-9]+"
         },
+          "domainName": {
+            "description": "Enter the application domain name",
+            "type": "domain",
+            "default": "change.the.domain",
+            "validation": "[a-zA-Z0-9]+"
+        },
       
         "webContainerName": {
             "description": "Enter the container's hostname",
