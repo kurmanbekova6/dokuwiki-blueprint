@@ -5,14 +5,14 @@
     "author": "https://github.com/happyaron",
     "containers": [
         {
-            "hostname": "aiperi.envs.subutai.cloud",
+            "hostname": "${webContainerName}",
             "template": "debian-stretch",
             "peer-criteria": "HTTP-GROUP",
             "size": "${containerSize}",
             "port-mapping": [
                 {
                     "protocol": "https",
-                    "domain": "",
+                    "domain": "aiperi.envs.subutai.cloud",
                     "internal-port": "80",
                     "external-port": "8080"
                 }
