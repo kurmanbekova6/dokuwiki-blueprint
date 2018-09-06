@@ -11,7 +11,7 @@
             "size": "${containerSize}",
             "port-mapping": [
                 {
-                    "protocol": "https",
+                    "protocol": "HTTP",
                     "domain": "aiperi.envs.subutai.cloud",
                     "internal-port": "80",
                     "external-port": "8080"
