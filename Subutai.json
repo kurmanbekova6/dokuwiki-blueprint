@@ -1,5 +1,5 @@
 {
-    "name": "${environmentName}",
+    "name": "app",
     "description": "Dokuwiki",
     "version": "2016-06-26a",
     "author": "https://github.com/happyaron",
